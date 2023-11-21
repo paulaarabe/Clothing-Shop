@@ -16,11 +16,6 @@ use App\Http\Controllers\PartController;
 |
 */
 
-// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
-
-
 Route::apiResource('styles', StyleController::class);
 Route::apiResource('parts', PartController::class);
 
